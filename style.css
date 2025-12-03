@@ -537,4 +537,97 @@
         .contact-form button[type="submit"]:hover {
             transform: scale(1.1);
             transition: transform 0.3s ease-in-out;
+
         }
+/* .................................responsiv ui....................................................................  */
+/* ------------------- RESPONSIVE (Mobile Screen) ------------------- */
+@media (max-width: 768px) {
+
+    /* Background div full fit */
+    .maindiv {
+        background-size: cover;
+        background-position: center;
+    }
+
+    /* Navigation items ko center me lane ke liye */
+    .ul_sub_div2 {
+        margin-left: 0;
+        gap: 10px;
+        font-size: medium;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .sub_div1 {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    /* Main heading center */
+    .h_sub_div1 {
+        margin-top: 10px;
+    }
+
+    /* Image small for mobile */
+    .img_sub_div1 {
+        width: 60px;
+        height: 60px;
+    }
+
+    /* Second main div responsive */
+    .subdiv2 {
+        margin-left: 50px;
+        width: 80%;
+    }
+
+    /* Footer responsive */
+    .div2_div6 {
+        flex-direction: column;
+        gap: 20px;
+        text-align: center;
+        margin: 10px;
+    }
+
+    /* Login box responsive */
+    .login_sub_div1 {
+        width: 90%;
+        margin-left: 5%;
+        margin-top: 20px;
+    }
+
+    /* Login form responsive */
+    .loginform_sub_div1 {
+        width: 90%;
+        margin-top: 50px;
+    }
+
+    .input_loginform_div1,
+    .btn1_loginform_div1 {
+        margin-left: 20px;
+        width: 80%;
+    }
+
+    /* Doctor register form */
+    .doctorregistartionform_sub_div1 {
+        width: 90%;
+        margin-left: 5%;
+        height: auto;
+        padding-bottom: 20px;
+    }
+
+    .input_drregiform {
+        width: 80%;
+        margin-left: 10%;
+    }
+
+    .btn1_drregiform {
+        margin-left: 30%;
+    }
+
+    /* Contact form responsive */
+    .contact-form {
+        width: 90%;
+        margin-left: 5%;
+        height: auto;
+    }
+}
