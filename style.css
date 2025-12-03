@@ -145,6 +145,13 @@
             font-weight: bolder;
 
         }
+a:hover {
+            text-align: center;
+            color: #000000;
+            font-weight: bolder;
+
+        }
+
 
         /* From Uiverse.io by vinodjangid07 */
         .card {
@@ -629,6 +636,7 @@
         height: auto;
     }
 }
+
 
 
 
