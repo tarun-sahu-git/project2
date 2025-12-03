@@ -145,6 +145,13 @@
             font-weight: bolder;
 
         }
+ .a:hover {
+            text-align: center;
+            color: #000000;
+            font-weight: bolder;
+
+        }
+
 
 
 
@@ -631,3 +638,4 @@
         height: auto;
     }
 }
+
